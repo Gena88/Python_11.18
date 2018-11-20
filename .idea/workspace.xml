@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7f946d2-261a-4eac-bf87-ba30a5f20a80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_11.18.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_11.18.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="104" />
+          <entry key="py" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="104" />
+          <entry key="Python" value="110" />
         </counts>
       </usages-collector>
     </session>
@@ -49,8 +45,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="307">
+              <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+              <folding>
+                <element signature="e#24#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_group.test_add_group">
+  <component name="RunManager" selected="Python tests.pytest for test_add_group.test_add_group.test1_add_group">
     <configuration name="test_add_group" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_11.18" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,9 +212,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
         <item itemvalue="Python tests.pytest for test_add_group.test_add_group.test1_add_group" />
         <item itemvalue="Python.test_add_group" />
+        <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
         <item itemvalue="Python tests.pytest for test_add_group.test_add_group.test_add_group" />
         <item itemvalue="Python tests.pytest for test_add_group.test_add_group.test_test_add_group" />
       </list>
@@ -235,12 +234,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_add_group_test_add_group - 2018.11.21 at 01h 48m 18s.xml">
-      <configuration name="pytest for test_add_group.test_add_group" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_add_group_test_add_group - 2018.11.21 at 01h 48m 59s.xml">
-      <configuration name="pytest for test_add_group.test_add_group" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_add_group_test_add_group - 2018.11.21 at 01h 49m 09s.xml">
       <configuration name="pytest for test_add_group.test_add_group" configurationId="tests" />
     </history-entry>
@@ -263,6 +256,12 @@
       <configuration name="pytest for test_add_group.test_add_group" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_test_add_group_test_add_group - 2018.11.21 at 02h 01m 57s.xml">
+      <configuration name="pytest for test_add_group.test_add_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_group_test_add_group_test1_add_group - 2018.11.21 at 02h 07m 36s.xml">
+      <configuration name="pytest for test_add_group.test_add_group.test1_add_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_group_test_add_group - 2018.11.21 at 02h 10m 45s.xml">
       <configuration name="pytest for test_add_group.test_add_group" configurationId="tests" />
     </history-entry>
   </component>
@@ -337,8 +336,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_add_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="307">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
