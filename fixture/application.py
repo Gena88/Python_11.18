@@ -5,9 +5,15 @@ class Application:
 
     def __init__(self):
         self.wd = WebDriver()
-        self.wd.implicitly_wait(60)
+        self.wd.implicitly_wait(6)
         self.group = GroupHelper(self)
 
+    def is_valid(self):
+        try:
+            self.wd.current_url
+            return True
+        except:
+            return False
 
     def open_houme_page(self):
         wd = self.wd
