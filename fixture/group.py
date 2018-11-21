@@ -75,8 +75,9 @@ class GroupHelper:
         self.open_group_page()
         spisok = []
         for element in wd.find_elements_by_xpath("/html/body/div/div/form/input"):
+            text = element.text
             id = element.find_element_by_xpath("/html/body/div/div/form/input").get_attribute('value')
-            spisok.append(Group(id=id))
+            spisok.append(Group(name=text, id=id))
         return spisok
 
 
