@@ -5,7 +5,6 @@ class Application:
 
     def __init__(self):
         self.wd = WebDriver()
-        self.wd.implicitly_wait(6)
         self.group = GroupHelper(self)
 
     def is_valid(self):
