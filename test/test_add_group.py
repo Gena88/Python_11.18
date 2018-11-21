@@ -8,4 +8,4 @@ def test1_add_group(app):
 
 def test2_add_empty_group(app):
     app.open_houme_page()
-    app.group.create(Group(name='', header='', footer=''))
+    app.group.create(Group(name='test', header='header', footer='footer'))
