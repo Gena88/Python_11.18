@@ -1,4 +1,5 @@
 from model.group import Group
+from random import randrange
 
 def test1_delete_first_group(app):
     if app.group.count() == 0:
@@ -7,6 +8,18 @@ def test1_delete_first_group(app):
     app.group.delete_first_group()
     new_groups = app.group.count()
     assert old_groups - 1 == new_groups
+
+
+
+def test1_delete_some_group(app):
+    if app.group.count() == 0:
+        app.group.create(Group(name='test'))
+    old_groups = app.group.count()
+    index = randrange(old_groups)
+    app.group.delete_group_by_index(index)
+    new_groups = app.group.count()
+    assert old_groups - 1 == new_groups
+
 
 # пробный тест по заполнению списка групп
 # def test2_delete_first_group(app):

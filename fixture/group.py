@@ -50,13 +50,32 @@ class GroupHelper:
     def delete_first_group(self):
         wd = self.app.wd
         self.open_group_page()
-        self.select_first_group(wd)
+        self.select_first_group()
         # Удалить выбранную группу
         wd.find_element_by_name("delete").click()
         self.return_to_group_page()
 
-    def select_first_group(self, wd):
+
+
+    def delete_group_by_index(self, index):
+        wd = self.app.wd
+        self.open_group_page()
+        self.select_group_by_index(index)
+        # Удалить выбранную группу
+        wd.find_element_by_name("delete").click()
+        self.return_to_group_page()
+
+
+    def select_group_by_index(self, index):
         # Выбрать первую группу
+        wd = self.app.wd
+        wd.find_elements_by_name("selected[]")[index].click()
+
+
+
+    def select_first_group(self):
+        # Выбрать первую группу
+        wd = self.app.wd
         wd.find_element_by_name("selected[]").click()
 
     def modify_first_group(self, new_group_date):
@@ -82,17 +101,12 @@ class GroupHelper:
     #     wd = self.app.wd
     #     self.open_group_page()
     #     spisok = []
-    #     for element in wd.find_elements_by_xpath("/html/body/div/div/form/input"):
+    #     for element in wd.find_elements_by_css_selector('input[name="selected[]"]'):
     #         text = element.text
     #         id = element.find_element_by_xpath("/html/body/div/div/form/input").get_attribute('value')
-    #         id = element.wd.find_elements_by_name("selected[]").get_attribute('value')
-            # spisok.append(Group(name=text, id=id))
-        # spisok[0:1] = []
-        # spisok[len(spisok)-2:] = []
-        # for element2 in wd.find_elements_by_name("selected[]"):
-        #     id = element2.find_element_by_name("selected[]").get_attribute('value')
-        #     spisok.append(Group(id=id))
-        # return spisok
+    #         id = element.find_element_by_css_selector('input[name="selected[]"]').get_attribute('value')
+    #         spisok.append(Group(id=id))
+    #     return spisok
 
 
     def random_text_group(self):
