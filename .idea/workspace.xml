@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7f946d2-261a-4eac-bf87-ba30a5f20a80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,22 +26,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="29" />
+          <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="29" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3059" />
+          <entry key="py" value="3245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3059" />
+          <entry key="Python" value="3245" />
         </counts>
       </usages-collector>
     </session>
@@ -54,14 +51,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="68">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
               <folding>
-                <marker date="1542846346499" expanded="true" signature="53:54" ph="..." />
-                <marker date="1542846346499" expanded="true" signature="632:637" ph="..." />
+                <marker date="1542851073455" expanded="true" signature="53:54" ph="..." />
+                <marker date="1542851073455" expanded="true" signature="695:700" ph="..." />
               </folding>
             </state>
           </provider>
@@ -77,30 +74,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/untitled3/venv/Lib/site-packages/_pytest/python.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="165" selection-start-line="165" selection-end-line="165" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/untitled3/venv/Lib/site-packages/pluggy/callers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="186" selection-start-line="186" selection-end-line="186" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <marker date="1542846533873" expanded="true" signature="15:20" ph="..." />
+                <marker date="1542846561502" expanded="true" signature="15:20" ph="..." />
               </folding>
             </state>
           </provider>
@@ -109,14 +88,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+            <state relative-caret-position="409">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
               <folding>
-                <marker date="1542846379996" expanded="true" signature="50:51" ph="..." />
-                <marker date="1542846379996" expanded="true" signature="50:56" ph="..." />
-                <marker date="1542846379996" expanded="true" signature="1280:3075" ph="..." />
-                <marker date="1542846379996" expanded="true" signature="1669:3075" ph="..." />
-                <marker date="1542846379996" expanded="true" signature="2075:3075" ph="..." />
+                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1542851073432" expanded="true" signature="77:78" ph="..." />
+                <marker date="1542851073432" expanded="true" signature="77:83" ph="..." />
+                <marker date="1542851073432" expanded="true" signature="1307:3262" ph="..." />
+                <marker date="1542851073432" expanded="true" signature="1696:3262" ph="..." />
+                <marker date="1542851073432" expanded="true" signature="2102:3262" ph="..." />
+                <marker date="1542851073432" expanded="true" signature="3127:3262" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+                <marker date="1542776008979" expanded="true" signature="116:117" ph="..." />
+                <marker date="1542776008979" expanded="true" signature="116:122" ph="..." />
+                <marker date="1542776008979" expanded="true" signature="235:351" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,9 +146,9 @@
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/test/test_modify_group.py" />
         <option value="$PROJECT_DIR$/test/test_del_group.py" />
-        <option value="$PROJECT_DIR$/test/test_add_group.py" />
-        <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/model/group.py" />
+        <option value="$PROJECT_DIR$/fixture/group.py" />
+        <option value="$PROJECT_DIR$/test/test_add_group.py" />
       </list>
     </option>
   </component>
@@ -247,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test">
+  <component name="RunManager" selected="Python tests.Unnamed">
     <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_11.18" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -392,9 +388,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_del_group_py - 2018.11.22 at 03h 17m 13s.xml">
-      <configuration name="pytest in test_del_group.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_del_group_py - 2018.11.22 at 03h 17m 19s.xml">
       <configuration name="pytest in test_del_group.py" configurationId="tests" />
     </history-entry>
@@ -420,6 +413,9 @@
       <configuration name="pytest in test" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_test - 2018.11.22 at 03h 26m 35s.xml">
+      <configuration name="pytest in test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test - 2018.11.22 at 03h 29m 54s.xml">
       <configuration name="pytest in test" configurationId="tests" />
     </history-entry>
   </component>
@@ -484,35 +480,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_del_group.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/selenium/webdriver/firefox/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2278">
           <caret line="31" column="10" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <marker date="1542776008979" expanded="true" signature="116:117" ph="..." />
-            <marker date="1542776008979" expanded="true" signature="116:122" ph="..." />
-            <marker date="1542776008979" expanded="true" signature="235:351" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,17 +568,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/untitled3/venv/Lib/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/untitled3/venv/Lib/site-packages/pluggy/callers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/untitled3/venv/Lib/site-packages/_pytest/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
         </state>
       </provider>
     </entry>
@@ -617,37 +589,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <marker date="1542846346499" expanded="true" signature="53:54" ph="..." />
-            <marker date="1542846346499" expanded="true" signature="632:637" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-          <folding>
-            <marker date="1542846379996" expanded="true" signature="50:51" ph="..." />
-            <marker date="1542846379996" expanded="true" signature="50:56" ph="..." />
-            <marker date="1542846379996" expanded="true" signature="1280:3075" ph="..." />
-            <marker date="1542846379996" expanded="true" signature="1669:3075" ph="..." />
-            <marker date="1542846379996" expanded="true" signature="2075:3075" ph="..." />
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1542776008979" expanded="true" signature="116:117" ph="..." />
+            <marker date="1542776008979" expanded="true" signature="116:122" ph="..." />
+            <marker date="1542776008979" expanded="true" signature="235:351" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <marker date="1542846533873" expanded="true" signature="15:20" ph="..." />
+            <marker date="1542846561502" expanded="true" signature="15:20" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1542851073432" expanded="true" signature="77:78" ph="..." />
+            <marker date="1542851073432" expanded="true" signature="77:83" ph="..." />
+            <marker date="1542851073432" expanded="true" signature="1307:3262" ph="..." />
+            <marker date="1542851073432" expanded="true" signature="1696:3262" ph="..." />
+            <marker date="1542851073432" expanded="true" signature="2102:3262" ph="..." />
+            <marker date="1542851073432" expanded="true" signature="3127:3262" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <marker date="1542851073455" expanded="true" signature="53:54" ph="..." />
+            <marker date="1542851073455" expanded="true" signature="695:700" ph="..." />
           </folding>
         </state>
       </provider>

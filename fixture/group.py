@@ -1,5 +1,6 @@
 from model.group import Group
-
+import random
+import string
 
 class GroupHelper:
 
@@ -86,6 +87,12 @@ class GroupHelper:
         #     spisok.append(Group(id=id))
         # return spisok
 
+
+    def random_text_group(self):
+        a = 'test_'
+        b = ''.join([random.choice(string.digits) for i in range(4)])
+        tg = a + b
+        return tg
 
 
 
