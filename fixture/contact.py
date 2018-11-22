@@ -33,6 +33,13 @@ class ContactHelper:
         self.change_field_value('firstname', contact.firstname)
         self.change_field_value('lastname', contact.lastname)
         self.change_field_value('address', contact.address)
+        self.change_field_value('home', contact.home_phone)
+        self.change_field_value('mobile', contact.mobile_phone)
+        self.change_field_value('work', contact.work_phone)
+        self.change_field_value('email', contact.address)
+        self.change_field_value('address2', contact.address)
+        self.change_field_value('phone2', contact.address)
+
 
 
     def change_field_value(self, field_name, text):
