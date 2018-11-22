@@ -1,4 +1,6 @@
 from selenium.webdriver.firefox.webdriver import WebDriver
+
+from fixture.contact import ContactHelper
 from fixture.group import GroupHelper
 
 class Application:
@@ -6,6 +8,7 @@ class Application:
     def __init__(self):
         self.wd = WebDriver()
         self.group = GroupHelper(self)
+        self.contact = ContactHelper(self)
 
     def is_valid(self):
         try:
