@@ -13,10 +13,21 @@ class ContactHelper:
             # Переход на страницу Group
             wd.find_element_by_link_text("add new").click()
 
+
+
     def return_to_home_page(self):
         wd = self.app.wd
         # Переход на страницу Group
         wd.find_element_by_link_text("home page").click()
+
+
+    # !!! Проблемы при запуске из функции delete_first_contact !!!
+    # def open_houme_page(self):
+    #     wd = self.wd
+    #     Открытие главной страницы
+        # wd.get("http://localhost/")
+
+
 
     def create(self, contact):
         wd = self.app.wd
@@ -25,6 +36,7 @@ class ContactHelper:
         # Сохранение введенных параметров
         wd.find_element_by_name("submit").click()
         self.return_to_home_page()
+
 
 
     def fill_contact_form(self, contact):
@@ -50,4 +62,20 @@ class ContactHelper:
             wd.find_element_by_name(field_name).clear()
             wd.find_element_by_name(field_name).send_keys(text)
 
+
+
+    def delete_first_contact(self):
+        wd = self.app.wd
+        # !!! Проблемы при запуске функции open_houme_page !!!
+        # self.open_houme_page()
+        self.select_first_contact(wd)
+        # Удалить выбранную группу
+        wd.find_element_by_css_selector('input[value="Delete"').click()
+        self.return_to_home_page()
+
+
+
+    def select_first_contact(self, wd):
+        # Выбрать первую группу
+        wd.find_element_by_css_selector('img[title="Edit"').click()
 
