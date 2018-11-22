@@ -6,13 +6,15 @@ import string
 
 
 def random_string(prefix, maxlen=None):
-    symbols = string.ascii_letters + string.digits + " "
+    symbols = string.ascii_letters + string.digits + string.punctuation*10 + " "*5
     return prefix + "".join([random.choice(symbols) for i  in range(random.randrange(maxlen))])
 
-testdata = [
+testdata = [Group(name='', header='', footer='')] + [
     # Group(name=str, header=str, footer=str)
-    Group(name=random_string("name", 5), header=random_string("header", 5), footer=random_string("footer", 5)),
-    Group(name='', header='', footer='')
+    Group(name=name, header=header, footer=footer)
+    for name in ["", random_string("name", 5)]
+    for header in ["", random_string("header", 5)]
+    for footer in ["", random_string("footer", 5)]
 ]
 
 @pytest.mark.parametrize("group", testdata, ids=[repr(x) for x in testdata])
