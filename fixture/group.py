@@ -70,15 +70,21 @@ class GroupHelper:
 
 
     # Не удалось реализовать функцию по формированию списка груп, проверку реализовал с помощью функции COUNT
-    def get_group_list(self):
-        wd = self.app.wd
-        self.open_group_page()
-        spisok = []
-        for element in wd.find_elements_by_xpath("/html/body/div/div/form/input"):
-            text = element.text
-            id = element.find_element_by_xpath("/html/body/div/div/form/input").get_attribute('value')
-            spisok.append(Group(name=text, id=id))
-        return spisok
+    # def get_group_list(self):
+    #     wd = self.app.wd
+    #     self.open_group_page()
+    #     spisok = []
+    #     for element in wd.find_elements_by_xpath("/html/body/div/div/form/input"):
+    #         text = element.text
+    #         id = element.find_element_by_xpath("/html/body/div/div/form/input").get_attribute('value')
+    #         id = element.wd.find_elements_by_name("selected[]").get_attribute('value')
+            # spisok.append(Group(name=text, id=id))
+        # spisok[0:1] = []
+        # spisok[len(spisok)-2:] = []
+        # for element2 in wd.find_elements_by_name("selected[]"):
+        #     id = element2.find_element_by_name("selected[]").get_attribute('value')
+        #     spisok.append(Group(id=id))
+        # return spisok
 
 
 
