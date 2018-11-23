@@ -1,3 +1,13 @@
 {
-  "baseUrl": "http://localhost//"
+  "web":{
+    "baseUrl": "http://localhost//"
+  },
+
+  "db":{
+    "host": "localhost",
+    "name": "addressbook",
+    "user": "root",
+    "password": ""
+  }
+
 }

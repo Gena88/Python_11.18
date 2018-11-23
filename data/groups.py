@@ -8,7 +8,7 @@ def random_string(prefix, maxlen=None):
     symbols = string.ascii_letters + string.digits + string.punctuation*10 + " "*5
     return prefix + "".join([random.choice(symbols) for i  in range(random.randrange(maxlen))])
 
-testdata = [Group(name='', header='', footer='')] + [
+testdata = [
     # Group(name=str, header=str, footer=str)
     Group(name=name, header=header, footer=footer)
     for name in ["", random_string("name", 5)]
