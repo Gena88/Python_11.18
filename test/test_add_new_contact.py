@@ -1,7 +1,7 @@
 from model.contact import Contact
 
 
-def test1_add_group(app):
+def test1_add_contact(app):
     # old_groups = app.group.count()
     # str = app.group.random_text_group()
     # Создание нового контакта
